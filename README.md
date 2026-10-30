@@ -88,8 +88,8 @@ Installation & Setup
 
 1. Clone the Repository
 
-git clone https://github.com/lailaalqhtany/remix-of-haseen-guardian-console.git
-cd remix-of-haseen-guardian-console
+git clone https://github.com/lailaalqhtany/HASEEN-Smart-Web-Defense.git
+cd HASEEN-Smart-Web-Defense
 
 2. Set Up the Frontend
 
