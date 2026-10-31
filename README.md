@@ -52,20 +52,21 @@ Technology Stack
 
 System Architecture
 
-                HASEEN Platform
-                      |
-          +-----------+-----------+
-          |                       |
-     Frontend                 Backend API
-  React + TypeScript             FastAPI
-          |                       |
-   Security Dashboard      +------+------+
-   Bilingual Interface     |             |
-   Security Reports    File Analysis  Incident Logging
-                          |             |
-                     SHA-256       SQLite Database
-                     Detection
-                     Risk Scoring
+               ```text
+                  HASEEN Platform
+                        |
+             +----------+----------+
+             |                     |
+          Frontend              Backend API
+      React + TypeScript           FastAPI
+             |                     |
+      Security Dashboard      +----+-----+
+      Bilingual Interface     |          |
+      Security Reports    File Analysis  Incident Logging
+                               |          |
+                          SHA-256      SQLite
+                          Detection    Database
+                          Risk Scoring
 Backend API
 
 Run the backend locally and access the interactive API documentation at:
