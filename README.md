@@ -39,7 +39,16 @@ Present security findings and forensic information through the dashboard.
 Provide visibility into file integrity and detected indicators.
 Technology Stack
 
-Component Technologies Frontend React, TypeScript, Vite UI Tailwind CSS, shadcn/ui Backend Python, FastAPI File Integrity SHA-256 Detection Python-based rule and keyword analysis Database SQLite API Documentation Swagger UI Version Control Git & GitHub
+| Component | Technologies |
+|---|---|
+| Frontend | React, TypeScript, Vite |
+| UI | Tailwind CSS, shadcn/ui |
+| Backend | Python, FastAPI |
+| File Integrity | SHA-256 |
+| Detection | Rule-based and keyword analysis |
+| Database | SQLite |
+| API Documentation | Swagger UI |
+| Version Control | Git & GitHub |
 
 System Architecture
 
