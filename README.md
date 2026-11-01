@@ -66,7 +66,8 @@ System Architecture
                                |          |
                           SHA-256      SQLite
                           Detection    Database
-                          Risk Scoring```
+                          Risk Scoring
+                          ```
                           
 Backend API
 
