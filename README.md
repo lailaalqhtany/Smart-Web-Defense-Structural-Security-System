@@ -52,7 +52,7 @@ Technology Stack
 
 System Architecture
 
-               ```text
+               ```text```
                   HASEEN Platform
                         |
              +----------+----------+
@@ -67,7 +67,7 @@ System Architecture
                           SHA-256      SQLite
                           Detection    Database
                           Risk Scoring
-                          ```
+                          
 Backend API
 
 Run the backend locally and access the interactive API documentation at:
