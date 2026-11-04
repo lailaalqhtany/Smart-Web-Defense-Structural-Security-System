@@ -49,7 +49,7 @@ Technology Stack
 | Database | SQLite |
 | API Documentation | Swagger UI |
 | Version Control | Git & GitHub |
-text```
+
 System Architecture
 
 HASEEN consists of two main components:
@@ -71,13 +71,14 @@ HASEEN consists of two main components:
 
 Architecture Overview
 
-Layer	Component	Responsibility
-Frontend	React + TypeScript	User interface
-Frontend	Security Dashboard	Displays security information
-Backend	FastAPI	Handles API requests
-Analysis	SHA-256	Verifies file integrity
-Detection	Rule-based Analysis	Identifies suspicious indicators
-Database	SQLite	Stores incident records           
+| Layer | Component | Responsibility |
+|---|---|---|
+| Frontend | React + TypeScript | User interface |
+| Frontend | Security Dashboard | Displays security information |
+| Backend | FastAPI | Handles API requests |
+| Analysis | SHA-256 | Verifies file integrity |
+| Detection | Rule-based Analysis | Identifies suspicious indicators |
+| Database | SQLite | Stores incident records |          
 Backend API
 
 Run the backend locally and access the interactive API documentation at:
