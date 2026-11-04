@@ -52,29 +52,22 @@ Technology Stack
 
 System Architecture
 
-               ```text
-                 HASEEN Platform
-│
-├── Frontend
-│   ├── React
-│   ├── TypeScript
-│   ├── Security Dashboard
-│   ├── Bilingual Interface (Arabic / English)
-│   └── Security Reports
-│
-└── Backend API
-    └── FastAPI
-        │
-        ├── File Integrity Analysis
-        │   ├── SHA-256 Hashing
-        │   ├── File Comparison
-        │   └── Defacement Detection
-        │
-        ├── Risk Scoring
-        │
-        └── Incident Logging
-            └── SQLite Database
-                          ```
+The HASEEN platform consists of two main components: a React-based frontend and a FastAPI backend.
+
+flowchart TD
+    A["HASEEN Platform"] --> B["Frontend"]
+    A --> C["Backend API"]
+    B --> D["React + TypeScript"]
+    B --> E["Security Dashboard"]
+    B --> F["Bilingual Interface"]
+    B --> G["Security Reports"]
+    C --> H["FastAPI"]
+    H --> I["File Integrity Analysis"]
+    H --> J["Defacement Detection"]
+    H --> K["Risk Scoring"]
+    H --> L["Incident Logging"]
+    I --> M["SHA-256 Hashing"]
+    L --> N["SQLite Database"]
                           
 Backend API
 
