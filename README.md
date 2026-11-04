@@ -53,7 +53,7 @@ Technology Stack
 System Architecture
 
 The HASEEN platform consists of two main components: a React-based frontend and a FastAPI backend.
-
+text```
 flowchart TD
     A["HASEEN Platform"] --> B["Frontend"]
     A --> C["Backend API"]
@@ -68,7 +68,7 @@ flowchart TD
     H --> L["Incident Logging"]
     I --> M["SHA-256 Hashing"]
     L --> N["SQLite Database"]
-                          
+            ```              
 Backend API
 
 Run the backend locally and access the interactive API documentation at:
