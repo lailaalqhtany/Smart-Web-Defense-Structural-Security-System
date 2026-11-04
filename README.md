@@ -52,23 +52,32 @@ Technology Stack
 text```
 System Architecture
 
-The HASEEN platform consists of two main components: a React-based frontend and a FastAPI backend.
+HASEEN consists of two main components:
 
-flowchart TD
-    A["HASEEN Platform"] --> B["Frontend"]
-    A --> C["Backend API"]
-    B --> D["React + TypeScript"]
-    B --> E["Security Dashboard"]
-    B --> F["Bilingual Interface"]
-    B --> G["Security Reports"]
-    C --> H["FastAPI"]
-    H --> I["File Integrity Analysis"]
-    H --> J["Defacement Detection"]
-    H --> K["Risk Scoring"]
-    H --> L["Incident Logging"]
-    I --> M["SHA-256 Hashing"]
-    L --> N["SQLite Database"]
-            ```              
+1. Frontend
+
+* Framework: React + TypeScript
+* Security Dashboard: Displays security status and findings.
+* Bilingual Interface: Supports Arabic and English.
+* Security Reports: Presents security analysis information.
+
+2. Backend
+
+* Framework: Python + FastAPI
+* File Integrity Analysis: Uses SHA-256 hashing and file comparison.
+* Defacement Detection: Identifies suspicious HTML indicators using predefined rules.
+* Risk Scoring: Assigns risk scores based on detected indicators.
+* Incident Logging: Stores scan records in an SQLite database.
+
+Architecture Overview
+
+Layer	Component	Responsibility
+Frontend	React + TypeScript	User interface
+Frontend	Security Dashboard	Displays security information
+Backend	FastAPI	Handles API requests
+Analysis	SHA-256	Verifies file integrity
+Detection	Rule-based Analysis	Identifies suspicious indicators
+Database	SQLite	Stores incident records           
 Backend API
 
 Run the backend locally and access the interactive API documentation at:
